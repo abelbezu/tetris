@@ -1,1 +1,1 @@
-# tetris
+A javascipt implementation of tetris. Uses the MVC architecture. 

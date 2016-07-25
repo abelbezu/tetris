@@ -1,3 +1,8 @@
-var Tetris = function(width, height){
-	
-}
+$(function(){
+
+	//creating and rendering pieces
+	// the main game loop
+	// user input
+	// score counting
+
+});

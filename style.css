@@ -1,10 +1,37 @@
 .main-container{
-  width: 300px;
+
   height: 600px;
   background: #F2F1EF;
-  margin: 100px auto;
-  
+ 
 }
 #tet_outer{
-	list-style: none;
+	padding:0px;
+
+}
+
+.tet_row_cont{
+
+	display: table-row;
+}
+
+.tet_row{
+	height: 10px;
+	margin-top: 1px;
+	display: block;
+	
+}
+
+.tet_cell{
+	width: 10px;
+	height: 10px;
+	margin-left: 1px;
+	float: left;
+}
+
+.board{
+	background-color: #bdc3c7;
+}
+
+.piece{
+	background-color: #ecf0f1;
 }
