@@ -4,6 +4,8 @@ var TetrisView = function(){
 	var $container = $('#mainContainer');
 	//renders the board represented by the given patter n.
 	_that.renderBoard = function(board_array){
+		//wash the container
+		$container.empty();
 		board_array.forEach(function(row){
 			var $row =  $('<div class = "tet_row"></div>');
 			row.forEach(function(cell){
